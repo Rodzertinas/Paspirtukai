@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Paspirtukai/static/css/main.21a52ba5.css",
+    "main.css": "/Paspirtukai/static/css/main.5d6c4494.css",
     "main.js": "/Paspirtukai/static/js/main.84635971.js",
     "static/js/787.41dadadb.chunk.js": "/Paspirtukai/static/js/787.41dadadb.chunk.js",
     "static/media/scooter.jpg": "/Paspirtukai/static/media/scooter.8a8783bb151f16634bb2.jpg",
     "index.html": "/Paspirtukai/index.html",
-    "main.21a52ba5.css.map": "/Paspirtukai/static/css/main.21a52ba5.css.map",
+    "main.5d6c4494.css.map": "/Paspirtukai/static/css/main.5d6c4494.css.map",
     "main.84635971.js.map": "/Paspirtukai/static/js/main.84635971.js.map",
     "787.41dadadb.chunk.js.map": "/Paspirtukai/static/js/787.41dadadb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.21a52ba5.css",
+    "static/css/main.5d6c4494.css",
     "static/js/main.84635971.js"
   ]
 }
