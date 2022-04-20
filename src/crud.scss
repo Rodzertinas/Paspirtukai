@@ -55,7 +55,7 @@ body {
             top: 0;
             padding-top: 27px;
             color: rgb(9, 0, 32);
-            margin-left: 25px;
+            margin-left: 36px;
             box-shadow: 0 3px 0px 0 rgba(196, 30, 30, 0.418);
             font-size: calc(18px + 3 * (100vw - 10px) / 1300);
             
@@ -313,16 +313,16 @@ body {
         }
         }
         
-    @media screen and (max-width: 450px) {
-        h1 {
+    // @media screen and (max-width: 450px) {
+    //     h1 {
            
-           
-            display: flex;
-            justify-content: center;
-            align-items: center;
+          
+    //         display: flex;
+    //         justify-content: center;
+    //         align-items: center;
             
-        }
-        }
+    //     }
+    //     }
 
 
         
