@@ -51,7 +51,7 @@ function Create({create}) {
 
                 <div className="input">
                 <label>Type:</label>
-                <input type="text" placeholder="Type"  value={type} onChange={(e) => handleInput(e, 'type')}></input>
+                <input type="text" placeholder="Create New or Edit"  value={type} onChange={(e) => handleInput(e, 'type')}></input>
                 </div>
                 
 
