@@ -5,7 +5,7 @@
 
 
 body {
-    font-size: calc(10px + (16 - 10) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(13px + (16 - 10) * ((100vw - 300px) / (1600 - 300)));
     background-attachment: fixed;
     // width: 100%;
     background-position: center; 
@@ -51,13 +51,18 @@ body {
         //     margin-left: 30px;
         // }
         h1 {
+            // color: rgb(65 44 31);
             position: fixed;
             top: 0;
-            padding-top: 27px;
-            color: rgb(9, 0, 32);
-            margin-left: 36px;
-            box-shadow: 0 3px 0px 0 rgba(196, 30, 30, 0.418);
-            font-size: calc(18px + 3 * (100vw - 10px) / 1300);
+            padding-top: 5px;
+
+            background: repeating-linear-gradient(to right, #a52c2c 0%, #13111f 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+            margin-left: 51px;
+            font-weight: 600;
+            box-shadow: 0 3px 0px 0 rgb(196 30 30 / 42%);
+            font-size: calc(25px + 3 * (100vw - 10px) / 1300);
             
             font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
         }
@@ -81,10 +86,15 @@ body {
         margin-top: 80px;
         // margin-bottom: 10px;
     }
+
+    .edit{
+        margin-top: -300px;
+    }
+   
     .create,
     .edit,
     .read {
-      
+    
         padding-bottom: 20px;
         border-radius: 10px;
         display: flex;
@@ -96,6 +106,7 @@ body {
             padding: 30px;
             width: 100%;
             h2 {
+                font-weight: 400;
                 text-align: center;
                 width: 100%;
                 margin: 0;
@@ -106,10 +117,10 @@ body {
                margin-bottom: 29px;
                 display: grid;
                 border: 1px solid gray;
-                border-radius: 19px;
-                font-size: calc(10px + (16 - 10) * ((100vw - 300px) / (1600 - 300)));
+                border-radius: 7px;
+                font-size: calc(15px + (16 - 10) * ((100vw - 300px) / (1600 - 300)));
                 outline: none;
-                padding: 6px;
+                padding: 10px;
             }
             select, input {
                 width: 100%;
@@ -126,7 +137,7 @@ body {
                 position: absolute;
             }
             input[type="checkbox"] {
-                margin-left: 200px;
+                margin-left: 209px;
                 // margin-top: -35px;
                 position: relative;
                 width: 1.3em;
@@ -144,9 +155,9 @@ body {
                     content: '';
                     display: block;
                     top: -4px;
-                    left: 3px;
+                    left: 7px;
                     width: 8px;
-                    height: 14px;
+                    height: 19px;
                     border-style: solid;
                     border-color: white;
                     border-width: 0 2px 2px 0;
@@ -155,7 +166,7 @@ body {
                 }
                 &:checked {
                     
-                    margin-left: 200px;
+                    // margin-left: 220px;
                     // margin-top: -35px;
                     border-radius: 100%;
                     color: white;
@@ -213,18 +224,24 @@ body {
                             margin-left: 190px;
                             padding: 8px 20px;
                             border-radius: 8px;
+                            background-color: red;
                            
-                            background-color: red
+                           
+                          
                         }
                     }
                 }
             }
         }
         ul {
+            background-color: rgb(229 213 173);
+            border-radius: 4px;
+           
+            opacity: 0.83;
             padding: 10px;
             width: 100%;
             li {
-                color: rgb(255, 255, 255);
+                color: rgb(255 58 2);
                 list-style: none;
                 font-size: calc(10px + (20 - 10) * ((100vw - 10px) / (1600 - 300)));
                 display: flex;
@@ -232,7 +249,7 @@ body {
                 align-items: center;
                 width: 100%;
                 padding: 5px 0;
-                border-bottom: 1px solid  #2f1183;
+                border-bottom: 1px solid #621818;
                 .content {
                     display: flex;
                     text-align: center;
@@ -246,8 +263,8 @@ body {
                         line-height: 30px;
                     }
                     .isalive {
-                        width: 20px;
-                        height: 20px;
+                        width: 10px;
+                        height: 10px;
                         background-color: green;
                         border-radius: 100%;
                         margin: 0 10px;
@@ -305,13 +322,25 @@ body {
     }
 
 
+
     @media screen and (max-width: 450px) {
         .app ul li .buttons button {
-             padding: 1px 1px;
-             border-radius: 5px;
-           
+             padding: 4px 7px;
+             border-radius: 13px;
+             .app .content {
+                width: 89%;
+                max-width: 1200px;
+            }
         }
         }
+        @media screen and (max-width: 450px) {
+            
+                 .app .content {
+                    width: 99%;
+                    max-width: 1200px;
+                }
+            
+            }
         
     // @media screen and (max-width: 450px) {
     //     h1 {

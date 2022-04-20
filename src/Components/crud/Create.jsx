@@ -44,7 +44,7 @@ function Create({create}) {
     return (
         <div className="create">
             <div className="header">
-            <h2>Create New</h2>
+            <h2></h2>
             </div>
             
             <div className="form">
